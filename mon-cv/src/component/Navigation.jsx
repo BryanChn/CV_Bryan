@@ -1,7 +1,9 @@
 import React from "react";
 
 const Navigation = () => {
-  return <></>;
+  return(
+    <></>
+  )
 };
 
 export default Navigation;
