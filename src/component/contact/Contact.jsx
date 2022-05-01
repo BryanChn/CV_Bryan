@@ -26,8 +26,8 @@ const Contact = () => {
   };
   return (
     <section id="Contact">
-      <h5>Hesitez pas a </h5>
-      <h2>me contactez !</h2>
+      <h5> N'hesitez pas à </h5>
+      <h2>me contacter !</h2>
 
       <div className="contact_container">
         <div className="contact_options">
@@ -52,7 +52,7 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Entrez votre nom et prénom"
+            placeholder="Entrez votre Nom et Prénom"
             required
           />
           <input
@@ -64,10 +64,10 @@ const Contact = () => {
           <textarea
             name="message"
             rows="7"
-            placeholder="Votre message"
+            placeholder="Saisissez votre  message"
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Envoyez voter message
+            Envoyez votre message
           </button>
         </form>
       </div>

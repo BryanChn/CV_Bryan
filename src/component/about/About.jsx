@@ -7,7 +7,7 @@ import { BsFolderCheck } from "react-icons/bs";
 const About = () => {
   return (
     <section id="About">
-      <h5>Découvrire</h5>
+      <h5>Découvrir</h5>
       <h2>Qui je suis</h2>
 
       <div className="about_container">
@@ -25,13 +25,13 @@ const About = () => {
             </article>
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Client</h5>
+              <h5>Clients</h5>
               <small>3 clients</small>
             </article>
             <article className="about_card">
               <BsFolderCheck className="about_icon" />
-              <h5>Project</h5>
-              <small>3 projets professionnel</small>
+              <h5>Projets</h5>
+              <small>3 projets professionnels</small>
             </article>
           </div>
           <p>

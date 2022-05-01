@@ -16,21 +16,12 @@ const Experience = () => {
           <div className="experience_content">
             <article className="experience_detail">
               <h4 className="text-light">HTML</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill />
+
               <h4 className="text-light">CSS/Sass</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleLine />
+
               <h4 className="text-light">Angular</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleLine /> <RiCheckboxBlankCircleLine />{" "}
-              <RiCheckboxBlankCircleLine />
+
               <h4 className="text-light">React/React Native</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleLine />{" "}
-              <RiCheckboxBlankCircleLine />
             </article>
           </div>
         </div>
@@ -43,17 +34,9 @@ const Experience = () => {
           <div className="experience_content">
             <article className="experience_detail">
               <h4 className="text-light">MYSQL</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleLine />{" "}
-              <RiCheckboxBlankCircleLine />
+
               <h4 className="text-light">Java</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleLine /> <RiCheckboxBlankCircleLine />{" "}
-              <RiCheckboxBlankCircleLine />
               <h4 className="text-light">NestJs</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleLine /> <RiCheckboxBlankCircleLine />{" "}
-              <RiCheckboxBlankCircleLine />
             </article>
           </div>
         </div>
@@ -61,18 +44,12 @@ const Experience = () => {
         <div className="experience_speak">
           <h3>
             {" "}
-            <BsPatchCheckFill /> Langue
+            <BsPatchCheckFill /> Langues
           </h3>
           <div className="experience_content">
             <article className="experience_detail">
               <h4 className="text-light">Français</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill />
               <h4 className="text-light">Anglais</h4>
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleFill />{" "}
-              <RiCheckboxBlankCircleFill /> <RiCheckboxBlankCircleLine />{" "}
-              <RiCheckboxBlankCircleLine />
             </article>
           </div>
         </div>
