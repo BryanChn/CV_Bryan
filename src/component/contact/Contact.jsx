@@ -43,7 +43,7 @@ const Contact = () => {
             <BsMessenger className="contact_option_icon" />
             <h4>Messenger</h4>
             <h5>Chaine Bryan</h5>
-            <a href="https://m.me/bryan.chain" target="_blank">
+            <a href="https://m.me/bryan.chaine" target="_blank">
               Envoyez moi un message !
             </a>
           </article>
