@@ -35,10 +35,31 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            minus omnis est odio, nobis, ipsam voluptatibus, officia totam
-            magnam quidem eaque distinctio quam possimus molestias? Aspernatur,
-            alias. Veniam, perferendis repellat!
+            Actuellement à l'UHA 4.O de Mulhouse en génie logiciel, j'ai eu de
+            nombreuses expériences professionnelles. En tant que développeur,
+            j'ai pu participer à 3 projets concrets pour des clients, un projet
+            personnel ainsi que deux projets dans le cadre de la formation.{" "}
+            <li>
+              MDC : Technologie Ionic/Angular, pour une application de sortie
+              entre amis.
+            </li>
+            <li>
+              EBN : Technologie React-native et site vitrine sous React avec
+              nestJs en back, application qui permets la récolte de biodéchets.
+            </li>
+            <li>
+              SDIS67 : Web app sous React, avec l'API de mapbox pour une
+              utilisation hors ligne des équipes d'intervention àfin de prévenir
+              d'eventuel changements dans les itinéraires et des localisations
+              des lieux d'interventions.
+            </li>
+            <li>Projet personnel : CV Interactif.</li>{" "}
+            <li>
+              Projet UHA : utilisation d'API pour créer un site web qui
+              répertorie des groupes, des artistes musicaux (
+              HTML/PHP/CSS).Création d'un site d'aide au calcul des formes
+              géometriques ( Java/React){" "}
+            </li>
           </p>
           <a href="#Contact" className="btn btn-primary">
             Contactez moi !
