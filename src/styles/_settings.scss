@@ -120,7 +120,13 @@ img {
     width: var(--container-width-md);
   }
   section {
-    margin-top: 6rem;
+    margin-top: 35rem;
+  }
+  #Contact {
+    margin-top: -15rem;
+  }
+  #Experience {
+    margin-top: 55rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -128,6 +134,12 @@ img {
     width: var(--container-width-ms);
   }
   section {
-    margin-top: 19rem;
+    margin-top: 6rem;
+  }
+  #Contact {
+    margin-top: -15rem;
+  }
+  #Experience {
+    margin-top: 55rem;
   }
 }
