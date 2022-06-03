@@ -35,17 +35,19 @@ const About = () => {
             </article>
           </div>
           <p>
-            Actuellement à l'UHA 4.O de Mulhouse en génie logiciel, j'ai eu de
-            nombreuses expériences professionnelles. En tant que développeur,
-            j'ai pu participer à 3 projets concrets pour des clients, un projet
-            personnel ainsi que deux projets dans le cadre de la formation.{" "}
+            Actuellement à l'UHA 4.O de Mulhouse en Licence Professionnelle
+            Développeur Informatique , j'ai eu plusieurs expériences
+            professionnelles. En tant que développeur, j'ai pu participer à 3
+            projets concrets pour des clients, un projet personnel ainsi que
+            deux projets dans le cadre de la formation.{" "}
             <li>
-              MDC : Technologie Ionic/Angular, pour une application de sortie
-              entre amis.
+              MDC (Marre du céliba) : Technologie Ionic/Angular, pour une
+              application de sortie entre amis.
             </li>
             <li>
-              EBN : Technologie React-native et site vitrine sous React avec
-              nestJs en back, application qui permets la récolte de biodéchets.
+              EBN (Les Tisserand Europe Bassin Nordfeld) : Technologie
+              React-native et site vitrine sous React avec nestJs en back,
+              application qui permet la récolte de biodéchets.
             </li>
             <li>
               SDIS67 : Web app sous React, avec l'API de mapbox pour une

@@ -53,6 +53,19 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        <div className="experience_skill">
+          <h3>
+            {" "}
+            <BsPatchCheckFill /> Soft Skill
+          </h3>
+          <div className="experience_content">
+            <article className="experience_detail">
+              <h4 className="text-light">Jira</h4>
+              <h4 className="text-light">Confluence</h4>
+              <h4 className="text-light">Methode agile framework scrum</h4>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );

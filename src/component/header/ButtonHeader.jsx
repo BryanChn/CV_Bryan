@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Chaine-Bryan.pdf";
+import CV from "../../assets/CV.pdf";
 
 const ButtonHeader = () => {
   return (

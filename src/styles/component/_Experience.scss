@@ -1,12 +1,11 @@
 .experience_container {
   display: flex;
-
   gap: 2rem;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
-  align-items: center;
+  margin-top: 10rem;
 }
 
 .experience_container > div {
@@ -52,6 +51,9 @@
   .experience_container {
     gap: 0.5rem;
     margin-top: 2rem;
+    margin-top: -8rem;
+    display: flex;
+    flex-direction: column;
   }
   .experience_container > div {
     width: 100%;

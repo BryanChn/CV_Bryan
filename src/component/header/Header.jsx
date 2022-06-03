@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h5>Bienvenu sur mon CV interactif</h5>
+        <h5>Bienvenue sur mon CV interactif</h5>
         <h1>Chaine Bryan</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <ButtonHeader />
