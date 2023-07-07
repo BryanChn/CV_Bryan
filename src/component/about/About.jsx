@@ -1,75 +1,92 @@
 import React from "react";
 import moismile from "../../assets/moismile.jpg";
+import moitoons from "../../assets/moitoons.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
+import ProjectCard from "../card/ProjectCard";
 
 const About = () => {
-  return (
-    <section id="About">
-      <h5>Découvrir</h5>
-      <h2>Qui je suis</h2>
+    return (
+        <section id="About">
+            <h5>Découvrir</h5>
+            <h2>Qui je suis</h2>
 
-      <div className="about_container">
-        <div className="about_me">
-          <div className="about_me-smile">
-            <img src={moismile} alt="About image" />
-          </div>
-        </div>
-        <div className="about_content">
-          <div className="about_cards">
-            <article className="about_card">
-              <FaAward className="about_icon" />
-              <h5>UHA 4.0</h5>
-              <small>License en cours</small>
-            </article>
-            <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>3 clients</small>
-            </article>
-            <article className="about_card">
-              <BsFolderCheck className="about_icon" />
-              <h5>Projets</h5>
-              <small>3 projets professionnels</small>
-            </article>
-          </div>
-          <p>
-            Actuellement à l'UHA 4.O de Mulhouse en Licence Professionnelle
-            Développeur Informatique , j'ai eu plusieurs expériences
-            professionnelles. En tant que développeur, j'ai pu participer à 3
-            projets concrets pour des clients, un projet personnel ainsi que
-            deux projets dans le cadre de la formation.{" "}
-            <li>
-              MDC (Marre du céliba) : Technologie Ionic/Angular, pour une
-              application de sortie entre amis.
-            </li>
-            <li>
-              EBN (Les Tisserand Europe Bassin Nordfeld) : Technologie
-              React-native et site vitrine sous React avec nestJs en back,
-              application qui permet la récolte de biodéchets.
-            </li>
-            <li>
-              SDIS67 : Web app sous React, avec l'API de mapbox pour une
-              utilisation hors ligne des équipes d'intervention àfin de prévenir
-              d'eventuel changements dans les itinéraires et des localisations
-              des lieux d'interventions.
-            </li>
-            <li>Projet personnel : CV Interactif.</li>{" "}
-            <li>
-              Projet UHA : utilisation d'API pour créer un site web qui
-              répertorie des groupes, des artistes musicaux (
-              HTML/PHP/CSS).Création d'un site d'aide au calcul des formes
-              géometriques ( Java/React){" "}
-            </li>
-          </p>
-          <a href="#Contact" className="btn btn-primary">
-            Contactez moi !
-          </a>
-        </div>
-      </div>
-    </section>
-  );
+            <div className="about_container">
+                <div className="about_me">
+                    <div className="about_me-smile">
+                        <img src={moitoons} alt="About image" />
+                    </div>
+                </div>
+                <div className="about_content">
+                    <div className="about_cards">
+                        <article className="about_card">
+                            <FaAward className="about_icon" />
+                            <h5>UHA 4.0</h5>
+                            <small>License Professionnelle</small>
+                        </article>
+                        <article className="about_card">
+                            <FiUsers className="about_icon" />
+                            <h5>Clients</h5>
+                            <small>5 clients</small>
+                        </article>
+                        <article className="about_card">
+                            <BsFolderCheck className="about_icon" />
+                            <h5>Projets</h5>
+                            <small>5 projets professionnels</small>
+                        </article>
+                        <article className="about_card">
+                            <FiUsers className="about_icon" />
+                            <h5>Stage</h5>
+                            <small>6 mois de stage</small>
+                        </article>
+                    </div>
+                    <div className="about_cards">
+                        <ProjectCard
+                            title={"MDC"}
+                            description={
+                                " pour une application de sortie entre amis."
+                            }
+                        />
+                        <ProjectCard
+                            title={"EBN"}
+                            description={
+                                "Technologie React-native et site vitrine sous React avec NestJs en back , application qui permet la récolte de biodéchets"
+                            }
+                        />
+                        <ProjectCard
+                            title={"SDIS67"}
+                            description={
+                                "Web App avec React API MapBox pour une utilisation hors lignes des équipes de secours"
+                            }
+                        />
+                        <ProjectCard
+                            title={"ENVIE"}
+                            description={
+                                "Site de gestion de stock avec NextJs et NestJs"
+                            }
+                        />
+                        <ProjectCard
+                            title={"AlterAlsace"}
+                            description={
+                                "Site et application mobile gestion énergétique"
+                            }
+                        />
+                        <ProjectCard
+                            title={"Stage 6mois"}
+                            description={
+                                "Création d'une librairie des création de formulaire (form-generator) en angular/Java "
+                            }
+                        />
+                    </div>
+
+                    <a href="#Contact" className="btn btn-primary">
+                        Contactez moi !
+                    </a>
+                </div>
+            </div>
+        </section>
+    );
 };
 
 export default About;
