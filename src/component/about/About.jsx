@@ -82,9 +82,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <a href="#Contact" className="btn btn-primary">
-                Contactez moi !
-            </a>
         </section>
     );
 };

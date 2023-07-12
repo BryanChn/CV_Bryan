@@ -104,7 +104,6 @@ a:hover {
     cursor: pointer;
     border: 1px solid $PrimaryColor;
     width: max-content;
-    margin-left: 55rem;
 }
 
 img {
@@ -118,27 +117,28 @@ img {
     .container {
         width: var(--container-width-md);
     }
-    section {
+    section#About {
         margin-top: 35rem;
     }
-    #Contact {
+    section#Contact {
         margin-top: -15rem;
     }
-    #Experience {
+    section#Experience {
         margin-top: 55rem;
     }
 }
+
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-ms);
     }
-    section {
+    section#About {
         margin-top: 6rem;
     }
-    #Contact {
+    section#Contact {
         margin-top: 48rem;
     }
-    #Experience {
+    section#Experience {
         margin-top: 55rem;
     }
 }
