@@ -41,6 +41,7 @@ const About = () => {
                             <small>6 mois de stage</small>
                         </article>
                     </div>
+
                     <div className="about_cards">
                         <ProjectCard
                             title={"MDC"}
@@ -75,7 +76,7 @@ const About = () => {
                         <ProjectCard
                             title={"Stage 6mois"}
                             description={
-                                "Création d'une librairie des création de formulaire (form-generator) en angular/Java "
+                                "Création d'une librairie de création de formulaire (form-generator) en angular/Java "
                             }
                         />
                     </div>

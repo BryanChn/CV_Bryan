@@ -2,13 +2,33 @@
     background-color: transparent;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 6px #4ca686;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: scale(1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 250px;
 }
 
 .project-card:hover {
     transform: scale(1.05);
+    animation: neonEffect 1.5s ease-in-out infinite alternate;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+@keyframes neonEffect {
+    0% {
+        box-shadow: 0 0 5px $PrimaryColorVariant, 0 0 10px $PrimaryColorVariant,
+            0 0 20px $PrimaryColorVariant, 0 0 30px $PrimaryColorVariant;
+    }
+    100% {
+        box-shadow: 0 0 5px $PrimaryColorVariant, 0 0 10px $PrimaryColorVariant,
+            0 0 20px $PrimaryColorVariant, 0 0 30px $PrimaryColorVariant;
+    }
 }
 
 .project-card:nth-child(odd) {
