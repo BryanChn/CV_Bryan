@@ -85,6 +85,10 @@
         gap: 1rem;
         flex-direction: column;
         display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-content: center;
     }
     .about_content {
         text-align: center;
