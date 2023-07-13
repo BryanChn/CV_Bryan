@@ -137,6 +137,12 @@ img {
     }
     section#Contact {
         margin-top: 6rem;
+        margin-top: 6rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     section#Experience {
         margin-top: 6rem;
