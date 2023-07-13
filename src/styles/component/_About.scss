@@ -83,6 +83,8 @@
     .about_cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        flex-direction: column;
+        display: flex;
     }
     .about_content {
         text-align: center;
