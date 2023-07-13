@@ -23,7 +23,7 @@ const About = () => {
                         <article className="about_card">
                             <FaAward className="about_icon" />
                             <h5>UHA 4.0</h5>
-                            <small>License Professionnelle</small>
+                            <small>Licence Professionnelle</small>
                         </article>
                         <article className="about_card">
                             <FiUsers className="about_icon" />
@@ -52,13 +52,13 @@ const About = () => {
                         <ProjectCard
                             title={"EBN"}
                             description={
-                                "Technologie React-native et site vitrine sous React avec NestJs en back , application qui permet la récolte de biodéchets"
+                                "Technologie React-native et site vitrine sous React avec NestJs en back , application qui permet la récolte des biodéchets"
                             }
                         />
                         <ProjectCard
                             title={"SDIS67"}
                             description={
-                                "Web App avec React API MapBox pour une utilisation hors lignes des équipes de secours"
+                                "Web App avec React API MapBox pour une utilisation hors ligne des équipes de secours"
                             }
                         />
                         <ProjectCard
@@ -70,7 +70,7 @@ const About = () => {
                         <ProjectCard
                             title={"AlterAlsace"}
                             description={
-                                "Site et application mobile gestion énergétique"
+                                "Site et application mobile de gestion énergétique"
                             }
                         />
                         <ProjectCard
